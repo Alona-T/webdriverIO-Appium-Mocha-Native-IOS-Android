@@ -1,4 +1,3 @@
-// const configShared = require('./wdio.conf').config;
 process.env.PLATFORM = "ANDROID",
 
 exports.config = {
