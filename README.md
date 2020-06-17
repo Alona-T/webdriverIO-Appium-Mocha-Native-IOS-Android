@@ -1,5 +1,5 @@
 # webdriverIO-Appium-Mocha
-WebdriverIO with Mocha, shared page objects and test classes between IOS and Android which helps to reduce code 2x
+WebdriverIO with Mocha, shared page objects and test classes between IOS and Android which helps to reduce code 2x. Instead of copying the almost same code into 2 classes to support iOS and Android you can do it in 1 class now - same page object class as well as use same test for 2 platforms. 
 
 # Features
  - webdriverIO
