@@ -1,4 +1,3 @@
-
 process.env.PLATFORM = "IOS",
 
 exports.config = {
