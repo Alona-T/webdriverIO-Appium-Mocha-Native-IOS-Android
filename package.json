@@ -1,0 +1,33 @@
+{
+  "name": "webdriverio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "android": "./node_modules/.bin/wdio ./config/wdio.android.conf.js PLATFORM=ANDROID",
+    "ios": "./node_modules/.bin/wdio ./config/wdio.ios.conf.js PLATFORM=IOS",
+    "browserstack android": "./node_modules/.bin/wdio ./config/android.browserstack.conf.js PLATFORM=ANDROID",
+    "browserstack ios": "./node_modules/.bin/wdio ./config/ios.browserstack.conf.js PLATFORM=IOS"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@wdio/allure-reporter": "^6.1.14",
+    "@wdio/appium-service": "^6.1.14",
+    "@wdio/cli": "^6.1.15",
+    "@wdio/local-runner": "^6.1.14",
+    "@wdio/mocha-framework": "^6.1.14",
+    "@wdio/selenium-standalone-service": "^6.1.14",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14"
+  },
+  "dependencies": {
+    "appium": "^1.17.1",
+    "chai": "^4.2.0"
+  }
+}
